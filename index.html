@@ -1,19 +1,63 @@
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.hero-image {
+  background-image: url("img/Ethyl-acetate-3D-balls.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: blue;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+</style>
+
 <head>
 	<title>Ethyl Acetate</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-	<h1>WELCOME TO ETHYL ACETATE</h1>
-	<img src="img/Ethyl-acetate-3D-balls.png" class="img-fluid" alt="Responsive image">
-<button href="https://smakbo.github.io/tugas-labkom-2018-naiirafa/akif.html" type="button" class="btn btn-outline-primary" >Definisi</button>
-<button type="button" class="btn btn-outline-secondary"> Sifat fisika </button>
-<button type="button" class="btn btn-outline-success">Sifat Kimia</button>
-<button type="button" class="btn btn-outline-danger">Sejarah</button>
-<button type="button" class="btn btn-outline-warning">Kegunaan</button>
-<button type="button" class="btn btn-outline-info">Cara Pembuatan</button>
-<button type="button" class="btn btn-outline-light">Contoh Reaksi</button>
+	
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">WELCOME TO ETHYL ACETATE</h1>
+    <p>TELL ME WHAT DO YOU WANT KNOW ABOUT ME?</p>
+  </div>
+</div>
+
+<a href="https://smakbo.github.io/tugas-labkom-2018-naiirafa/akif.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Definisi</a>
+<a href="https://smakbo.github.io/tugas-labkom-2018-naiirafa/naila.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Reaksi</a>
+
 
 stendy N Taufiq
 
