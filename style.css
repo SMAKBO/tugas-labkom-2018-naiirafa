@@ -3,11 +3,12 @@
 	padding-left:20% ; 
 	text-align: 
 	justify;
-	color:white;
+	color:black;
+
 }
 .canvas{
-	background-image: url("img/canvas.jpg"); 
+	background-image: url("img/pink.png"); 
 	padding-left: 3%; 
 	padding-right:3%;
-	
+	font-family: algerian ;
 }
