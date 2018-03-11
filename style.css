@@ -1,14 +1,29 @@
 .margin{
-	padding-right: 20%;
-	padding-left:20% ; 
-	text-align: 
-	justify;
+	padding-right: 10%;
+	padding-left:10% ; 
+	text-align: justify; 
 	color:black;
-
+	background-image: url("img/pink.png"); 
 }
 .canvas{
 	background-image: url("img/pink.png"); 
 	padding-left: 3%; 
 	padding-right:3%;
-	font-family: algerian ;
+	font-family: Adobe Gurmukhi;
+	text-align: justify;
+}
+
+.style{
+
+}
+
+.kegunaan{
+	text-align: center;
+	font-family: agilen ;
+	color: black ;
+	font-size: 80%
+}
+
+.right {
+	text-align: right;
 }
