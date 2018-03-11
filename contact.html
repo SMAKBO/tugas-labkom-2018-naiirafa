@@ -1,57 +1,50 @@
 <!DOCTYPE html>
 <html>
 <style>
-
 body, html {
     height: 100%;
-    margin: 0;
 }
 
-.bg {
-
+.hero-image {
+ 
     background-image: url("img/back.jpg");
 
+    
+    height: 50%;
 
-    height: 100%; 
-
+  
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
-.split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
+.column {
+    float: left;
+    padding: 10px;
+    height: 150px;
 }
-
 
 .left {
-  left: 0;
-  background-color: pink;
+  width: 35%;
 }
 
 .right {
-  right: 0;
-  background-color: #ffd9b3;
+  width: 65%;
 }
 
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+.row:after {
+    content: "";
+    display:"table";
+    clear: both;
 }
 
-
-.centered img {
-  width: 150px;
-  border-radius: 50%;
+.avatar {
+    vertical-align: middle;
+    horizontal-align: middle;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
 }
 </style>
 <head>
@@ -60,27 +53,93 @@ body, html {
 </head>
 <body>
 
-<div class="bg"></div>
-
-<div class="split left">
-  <div class="centered">
-    <img src="img/Lukis.jpg" alt="Avatar woman">
-    <h2>Naila Rafa Cendraningsih</h2>
+<div class="hero-image">
+  </div>
+  <div class="row">
+  <div class="column left" style="background-color:#ffcccc;">
+    <img src="img/Ea.png" alt="Avatar" class="avatar">
+  </div>
+  <div class="column right" style="background-color:#ffe6ff;">
+    <h3>Naila Rafa Cendraningsih</h2>
     <p>Information Searcher</p>
+    <a href="a" class="btn btn-info btn-lg active" role="button" aria-pressed="true">Contact me !</a> 
   </div>
 </div>
 
-<div class="split right">
-  <div class="centered">
-    <img src="img/Ea.png" alt="Avatar man">
-    <h2>Shandyka Yudha Pratama</h2>
+  <div class="row">
+  <div class="column left" style="background-color:#aaa;">
+    <img src="img/Ea.png" alt="Avatar" class="avatar">
+  </div>
+  <div class="column right" style="background-color:#bbb;">
+    <h3>Shandyka Yudha Pratama</h2>
     <p>Information Searcher</p>
+    <a href="a" class="btn btn-info btn-lg active" role="button" aria-pressed="true">Contact me !</a> 
   </div>
 </div>
-<p>h</p>
-ahdba
-pajsjsz
+<div class="row">
+  <div class="column left" style="background-color:#aaa;">
+    <img src="img/Ea.png" alt="Stendy" class="avatar">
+  </div>
+  <div class="column right" style="background-color:#bbb;">
+    <h3>Stendy Nur Taufiq</h2>
+    <p>Programmer</p>
+    <a href="a" class="btn btn-info btn-lg active" role="button" aria-pressed="true">Contact me !</a> 
+  </div>
+</div>
+<div class="row">
+  <div class="column left" style="background-color:#aaa;">
+    <img src="img/Ea.png" alt="Avatar" class="avatar">
+  </div>
+  <div class="column right" style="background-color:#bbb;">
+    <h3>Abdullah</h2>
+    <p>Programmer</p>
+    <a href="a" class="btn btn-info btn-lg active" role="button" aria-pressed="true">Contact me !</a> 
+  </div>
+</div>
+<div class="row">
+  <div class="column left" style="background-color:#aaa;">
+    <img src="img/Ea.png" alt="Avatar" class="avatar">
+  </div>
+  <div class="column right" style="background-color:#bbb;">
+    <h3>Sayu Ira Febriani</h2>
+    <p>Writer</p>
+    <a href="a" class="btn btn-info btn-lg active" role="button" aria-pressed="true">Contact me !</a> 
+  </div>
+</div>
+<div class="row">
+  <div class="column left" style="background-color:#aaa;">
+    <img src="img/iseh.jpg" alt="Avatar" class="avatar">
+  </div>
+  <div class="column right" style="background-color:#bbb;">
+    <h3>Sayidah Aisyah</h2>
+    <p>Writer</p>
+    <a href="a" class="btn btn-info btn-lg active" role="button" aria-pressed="true">Contact me !</a> 
+  </div>
+</div>
+<div class="row">
+  <div class="column left" style="background-color:#aaa;">
+    <img src="img/Ea.png" alt="Avatar" class="avatar">
+  </div>
+  <div class="column right" style="background-color:#bbb;">
+    <h3>Farhan Setia Firdaus</h2>
+    <p>Designer</p>
+    <a href="a" class="btn btn-info btn-lg active" role="button" aria-pressed="true">Contact me !</a> 
+  </div>
+</div>
+<div class="row">
+  <div class="column left" style="background-color:#aaa;">
+    <img src="img/Ea.png" alt="Avatar" class="avatar">
+  </div>
+  <div class="column right" style="background-color:#bbb;">
+    <h3>Muhammad Akif Azmi</h2>
+    <p>Designer</p>
+    <a href="a" class="btn btn-info btn-lg active" role="button" aria-pressed="true">Contact me !</a> 
+  </div>
+</div>
+ 
+
 
 </body>
 </html>
+    
     
